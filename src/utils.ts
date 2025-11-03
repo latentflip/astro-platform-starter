@@ -50,11 +50,3 @@ export function cacheHeaders(maxAgeDays = 365, cacheTags?: string[]): Record<str
 }
 
 export const uploadDisabled = import.meta.env.PUBLIC_DISABLE_UPLOADS?.toLowerCase() === 'true';
-
-fetch('/api', {
-    headers: {
-        'X-Netlify-Deploy-ID': import.meta.env.DEPLOY_ID
-    }
-})
-    .then(console.log)
-    .catch(console.error);
