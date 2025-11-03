@@ -1,3 +1,5 @@
+echo "BUILDING ${DEPLOY_ID}"
+
 rm -rf dist
 mkdir dist
 cp -r nlf .netlify
