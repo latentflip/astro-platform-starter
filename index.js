@@ -5,6 +5,7 @@ const doFetch = (deploy_id) => {
     .then((res) => res.text())
     .then((text) => {
       alert("fetched:" + text);
+      return text;
     });
 };
 
