@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "from": "/news",
+      "to": "/blog"
+    }
+  ]
+}
