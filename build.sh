@@ -9,4 +9,3 @@ sed "s/DEPLOY_ID/${DEPLOY_ID}/g" lazy.html > dist/lazy.html
 
 mkdir -p .netlify/v1
 cp nlf/v1/skew-protection.json .netlify/v1/skew-protection.json
-cp nlf/v1/config.json .netlify/v1/config.json
