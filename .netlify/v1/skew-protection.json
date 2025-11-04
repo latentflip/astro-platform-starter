@@ -1,0 +1,9 @@
+{
+  "patterns": [".*"],
+  "sources": [
+    {
+      "type": "query",
+      "name": "dpl"
+    }
+  ]
+}
